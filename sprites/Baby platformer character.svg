@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="Baby platformer character.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.9033873"
+     inkscape:cx="330.72617"
+     inkscape:cy="454.19027"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer9" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Hands">
+    <path
+       style="fill:#e9afaf;stroke-width:0.264583"
+       id="path4"
+       sodipodi:type="arc"
+       sodipodi:cx="120.06381"
+       sodipodi:cy="135.03828"
+       sodipodi:rx="5.0638103"
+       sodipodi:ry="3.0382862"
+       sodipodi:start="1.7453293"
+       sodipodi:end="0"
+       sodipodi:arc-type="slice"
+       d="m 119.18449,138.03041 a 5.0638103,3.0382862 0 0 1 -4.15025,-3.34485 5.0638103,3.0382862 0 0 1 5.32401,-2.68042 5.0638103,3.0382862 0 0 1 4.76937,3.03314 h -5.06381 z" />
+    <path
+       style="fill:#e9afaf;stroke-width:0.264583"
+       id="path4-8"
+       sodipodi:type="arc"
+       sodipodi:cx="-50.063812"
+       sodipodi:cy="135.03828"
+       sodipodi:rx="5.0638103"
+       sodipodi:ry="3.0382862"
+       sodipodi:start="1.7453293"
+       sodipodi:end="0"
+       sodipodi:arc-type="slice"
+       d="m -50.943134,138.03041 a 5.0638103,3.0382862 0 0 1 -4.150249,-3.34485 5.0638103,3.0382862 0 0 1 5.324005,-2.68042 5.0638103,3.0382862 0 0 1 4.769376,3.03314 h -5.06381 z"
+       transform="scale(-1,1)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Legs"
+     style="display:none">
+    <rect
+       style="fill:#241f1c;stroke-width:0.264583"
+       id="rect6"
+       width="0.70893347"
+       height="8.3783045"
+       x="72"
+       y="135"
+       ry="0.35446674" />
+    <rect
+       style="fill:#241f1c;stroke-width:0.264583"
+       id="rect6-7"
+       width="0.70893347"
+       height="8.3783045"
+       x="93"
+       y="135"
+       ry="0.35446674" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Head">
+    <rect
+       style="fill:#e9afaf;stroke-width:0.264583"
+       id="rect1"
+       width="67.286232"
+       height="45.219242"
+       x="51.508751"
+       y="90.241501"
+       ry="13.023144" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Mouth"
+     transform="translate(-1.3939557,1.6293597)">
+    <circle
+       style="fill:#ff2a2a;stroke-width:0.264583"
+       id="path3"
+       cx="92.479218"
+       cy="124.4559"
+       r="1.0852618" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Eyes">
+    <ellipse
+       style="fill:#f2f2f2;stroke-width:0.264583"
+       id="path1-1"
+       cx="103.44884"
+       cy="110.16753"
+       rx="9.7673559"
+       ry="14.289281" />
+    <ellipse
+       style="fill:#f2f2f2;stroke-width:0.264583"
+       id="path1-7-0"
+       cx="78.448845"
+       cy="110.16753"
+       rx="9.7673559"
+       ry="14.289281" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Pupils">
+    <circle
+       style="fill:#000000;stroke-width:0.264583"
+       id="path2"
+       cx="82.170525"
+       cy="110.17052"
+       r="2.1705236" />
+    <circle
+       style="fill:#000000;stroke-width:0.264583"
+       id="path2-8"
+       cx="107.17052"
+       cy="110.17052"
+       r="2.1705236" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Feet">
+    <rect
+       style="fill:#784421;stroke-width:0.264583"
+       id="rect5"
+       width="13.672292"
+       height="5.5701694"
+       x="70"
+       y="143"
+       ry="1.6879258" />
+    <rect
+       style="fill:#784421;stroke-width:0.264583"
+       id="rect5-4"
+       width="13.672292"
+       height="5.5701694"
+       x="91"
+       y="143"
+       ry="1.6879258" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Hair">
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583"
+       id="path5"
+       sodipodi:cx="80.173935"
+       sodipodi:cy="74.502464"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="15.471935"
+       sodipodi:argument="-17.463083"
+       sodipodi:t0="0"
+       d="m 80.173935,74.502464 c 0.142179,0.762598 -0.95782,0.567893 -1.267487,0.236311 -0.839179,-0.898568 -0.128874,-2.275611 0.794866,-2.771285 1.652356,-0.886645 3.607353,0.21732 4.275083,1.826044 0.97992,2.360866 -0.562012,4.96141 -2.857221,5.778879 -3.059153,1.089558 -6.323949,-0.905357 -7.282677,-3.888398 -1.206463,-3.753851 1.247864,-7.690663 4.919575,-8.786474 4.446934,-1.327175 9.059758,1.589857 10.290272,5.950752 1.450118,5.139163 -1.931525,10.430341 -6.981929,11.79407 -5.830892,1.574478 -11.801918,-2.272976 -13.297868,-8.013107 -1.699792,-6.522301 2.614275,-13.17419 9.044284,-14.801665 7.213498,-1.825779 14.54697,2.955466 16.305462,10.075461 1.952259,7.904544 -3.296576,15.920131 -11.106637,17.80926"
+       inkscape:transform-center-x="-0.60213052"
+       inkscape:transform-center-y="0.53241299"
+       transform="matrix(0.98287121,0.27021882,0.18429375,1.0680948,-5.3085895,-24.490764)" />
+  </g>
+</svg>
