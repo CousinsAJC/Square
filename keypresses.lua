@@ -66,11 +66,11 @@ function love.keypressed(key, scancode, isrepeat)
         end
         if MENU_STATE == "pause" then
             if key == "left" or key == "right" then
-                if cursor.x == 200 then
-                    cursor.x = 600
+                if cursor.x == 230 then
+                    cursor.x = 630
                     love.audio.play(menuClick)
-                elseif cursor.x == 600 then
-                    cursor.x = 200
+                elseif cursor.x == 630 then
+                    cursor.x = 230
                     love.audio.play(menuClick)
                 end
             end
@@ -83,6 +83,8 @@ function love.keypressed(key, scancode, isrepeat)
         if key == "escape" then
             GAME_STATE = "menu"
             MENU_STATE = "pause"
+            cursor.x = 230
+            cursor.y = 330
             change_Menu = true
         end
     end
