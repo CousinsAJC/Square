@@ -32,6 +32,8 @@ function love.load()
     p1 = Player(50, 50, "p1")
     p2 = Player(50, 250, "p2")
 
+    --e1 = Enemy(300, 300)
+
     -- perform opening screens into start menu
     load_Intro()
 
@@ -52,12 +54,15 @@ function love.update(dt)
 
     if GAME_STATE == "menu" then
         start_Menu_Update(dt)
-        
+        if change_Menu == true and MENU_STATE == "pause" then
+            update_Pause()
+        end        
     end
 
     if GAME_STATE == "gameplay" then
         p1.update(p1, dt)
         p2.update(p2, dt)
+        --e1.update(dt)
     end
 
 end
