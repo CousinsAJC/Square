@@ -44,7 +44,6 @@ end
 function enemy_Update(dt)
     enemyAI()
     enemyInput()
-    enemyDirection()
 end
 
 function enemy_Draw()
@@ -72,19 +71,6 @@ function lostInterest()
 
 end
 
-function enemyDirection()
-
-
-    if ED == 1 then
-        self.eye.x = self.x - self.radius + (2 * self.eye.radius)
-        self.eye.y = self.y + self.radius - (2 * self.eye.radius)
-    end
-
-    if ED == 3 then
-        self.eye.x = self.x + self.radius - (2 * self.eye.radius)
-        self.eye.y = self.y + self.radius - (2 * self.eye.radius)
-    end
-end
     
 
 function enemyInput()
@@ -128,6 +114,8 @@ function enemyInput()
     if love.keyboard.isDown("right") then
         if love.keyboard.isDown("down") then
             ED = 3
+            self.eye.x = self.x + self.radius - (2 * self.eye.radius)
+            self.eye.y = self.y + self.radius - (2 * self.eye.radius)
         end
     end
 

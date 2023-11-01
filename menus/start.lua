@@ -1,4 +1,4 @@
-function start_Menu_Load()
+function start_Load()
     cursor = {
         x = 300,
         y = 60
@@ -8,7 +8,7 @@ function start_Menu_Load()
 end
 
 
-function start_Menu_Update(dt)
+function start_Update(dt)
     if MENU_STATE == "player-count" and change_Menu == true then
         cursor.x = 400
         cursor.y = 240
@@ -36,7 +36,7 @@ end
 
 
 
-function start_Menu_Draw()
+function start_Draw()
     if MENU_STATE == "new-load" then
         love.graphics.print("New Game", 20, 20)
         love.graphics.print("Load Game", 20, 200)

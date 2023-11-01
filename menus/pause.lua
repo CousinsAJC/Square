@@ -1,6 +1,7 @@
 function load_Pause()
     pause_text = "Game Paused"
     cont_exit = "Continue?          Exit?"
+    
 end
 
 function update_Pause()

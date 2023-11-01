@@ -25,7 +25,7 @@ function love.load()
     load_Fonts()
     load_Sounds()
     load_Sprites()
-    start_Menu_Load()
+    start_Load()
     load_Pause()
 
 
@@ -53,7 +53,7 @@ function love.update(dt)
     end
 
     if GAME_STATE == "menu" then
-        start_Menu_Update(dt)
+        start_Update(dt)
         if change_Menu == true and MENU_STATE == "pause" then
             update_Pause()
         end        
@@ -78,7 +78,7 @@ function love.draw()
             draw_Pause()
         end
         if MENU_STATE == "new-load" or MENU_STATE == "player-count" or MENU_STATE == "p1-customize" or MENU_STATE == "p2-customize" or MENU_STATE == "load" then
-            start_Menu_Draw()
+            start_Draw()
         end
     end
 
