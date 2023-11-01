@@ -74,6 +74,14 @@ function love.keypressed(key, scancode, isrepeat)
                     love.audio.play(menuClick)
                 end
             end
+            if key == "return" then
+                if cursor.x == 230 then
+                    love.audio.play(menuClick)
+                    GAME_STATE = "gameplay"
+                elseif cursor.x == 630 then
+                    love.event.quit()
+                end
+            end
         end
     end
 
