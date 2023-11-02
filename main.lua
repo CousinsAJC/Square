@@ -19,6 +19,7 @@ function love.load()
     require "sfx/audio"
     require "sprites/sprites"
     require "menus/pause"
+    require "maps/testmap"
 
 
     --load all functions needed to initialize variables
@@ -36,6 +37,7 @@ function love.load()
 
     -- perform opening screens into start menu
     load_Intro()
+    testmap_Load()
 
 
     --Can start new game, load a game or go into options
@@ -60,10 +62,12 @@ function love.update(dt)
     end
 
     if GAME_STATE == "gameplay" then
+        testmap_Update()
         p1.update(p1, dt)
         p2.update(p2, dt)
         --e1.update(dt)
     end
+
 
 end
 
@@ -83,6 +87,7 @@ function love.draw()
     end
 
     if GAME_STATE == "gameplay" then
+        testmap_Draw()
         p1.draw(p1)
         p2.draw(p2)
     end
