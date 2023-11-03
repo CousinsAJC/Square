@@ -9,4 +9,7 @@ function load_Fonts()
     --used in start.lua
     startMenuFont = love.graphics.newFont("fonts/typewriterFont.ttf", 50)
 
+    --used for testing
+    consoleFont = love.graphics.newFont("fonts/typewriterFont.ttf", 12)
+
 end
