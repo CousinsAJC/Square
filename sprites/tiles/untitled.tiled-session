@@ -1,0 +1,24 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "FDR_Grasslands.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/cousi/OneDrive/Desktop/GitHubRepos/Square/sprites/tiles",
+    "openFiles": [
+        "FDR_Grasslands.tsx"
+    ],
+    "project": "untitled.tiled-project",
+    "recentFiles": [
+        "FDR_Grasslands.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}

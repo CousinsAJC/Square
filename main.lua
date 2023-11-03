@@ -8,8 +8,11 @@ GAME_STATE = "menu"
 PLAYER_COUNT = 0
 
 function love.load()
+    
+
 
     --load all files needed for the game
+    camera = require "camera"
     Object = require "classic"
     require "player"
     require "intros/intro"
@@ -30,6 +33,7 @@ function love.load()
     load_Pause()
 
 
+    cam = camera()
     p1 = Player(50, 50, "p1")
     p2 = Player(50, 250, "p2")
 
@@ -67,12 +71,13 @@ function love.update(dt)
         p2.update(p2, dt)
         --e1.update(dt)
     end
-
+    cam:lookAt(p1.x, p1.y)
 
 end
 
 
 function love.draw()
+
     if GAME_STATE == "intro" then
         draw_Intro()
     end
@@ -85,12 +90,12 @@ function love.draw()
             start_Draw()
         end
     end
-
-    if GAME_STATE == "gameplay" then
-        testmap_Draw()
-        p1.draw(p1)
-        p2.draw(p2)
-    end
-
+    cam:attach()
+        if GAME_STATE == "gameplay" then
+            testmap_Draw()
+            p1.draw(p1)
+            p2.draw(p2)
+        end
+    cam:detach()
 
 end
