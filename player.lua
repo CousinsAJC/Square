@@ -16,8 +16,17 @@ function Player:new(x, y, charNum)
     self.b = 255
     self.a = 255
 
-    self.img = p1_Sprite
+    self.sprite_Sheet = love.graphics.newImage("sprites/player.png")
+    self.grid = anim8.newGrid(48, 48, 192, 192)
 
+    self.animations = {}
+    self.animations.down = anim8.newAnimation( self.grid("1-4", 1), 0.2)
+    self.animations.left = anim8.newAnimation( self.grid("1-4", 2), 0.2)
+    self.animations.right = anim8.newAnimation(self.grid("1-4", 3), 0.2)
+    self.animations.up = anim8.newAnimation(self.grid("1-4", 4), 0.2)
+
+
+    self.anim = self.animations.down
     self.eye = {
         w = 5,
         h = 5,
@@ -43,7 +52,8 @@ function Player.update(self, dt)
     
     if self.char == "p1" then
         delta = p1_Move(p1)
-        p1_Direction(p1)
+        self.anim:update(dt)
+
     end
     if self.char == "p2" then
         delta = p2_Move(p2)
@@ -51,12 +61,15 @@ function Player.update(self, dt)
     end
 
     calculateVelocity(self, delta, dt)
+
+    
 end
 
 function Player.draw(self)
     if self.char == "p1" then
         love.graphics.setColor(self.r, self.g, self.b, self.a)
-        love.graphics.draw(self.img, self.x, self.y, 0, .15, .15)
+        --love.graphics.draw(self.img, self.x, self.y, 0, .15, .15)
+        self.anim:draw(p1.sprite_Sheet, p1.x, p1.y, nil, 2, 2)
     end
 
     if self.char == "p2" then
@@ -70,25 +83,33 @@ end
 
 function p1_Move(self)
     local p1_delta = {x = 0, y = 0}
-
+    local isMoving = false
     if love.keyboard.isDown("a") then
         p1_delta.x = -1
         p1_direction = "left"
+        self.anim = self.animations.left
+        isMoving = true
     end
 
     if love.keyboard.isDown("w") then
         p1_delta.y = -1
         p1_direction = "up"
+        self.anim = self.animations.up
+        isMoving = true
     end
 
     if love.keyboard.isDown("s") then
         p1_delta.y = 1
         p1_direction = "down"
+        self.anim = self.animations.down
+        isMoving = true
     end
 
     if love.keyboard.isDown("d") then
         p1_delta.x = 1
         p1_direction = "right"
+        self.anim = self.animations.right
+        isMoving = true
     end
 
     if love.keyboard.isDown("d") then
@@ -114,6 +135,11 @@ function p1_Move(self)
            p1_direction = "down-left"
         end
     end
+
+    if isMoving == false then
+        self.anim:gotoFrame(2)
+    end
+
 
 
     local joysticks = love.joystick.getJoysticks()
@@ -185,7 +211,7 @@ function p2_Move(self)
     return p2_delta
 end
 
-
+--[[
 function p1_Direction(self)
     
     if p1_direction == "right" then
@@ -229,7 +255,7 @@ function p1_Direction(self)
     end
 
 end
-
+]]
 
 function p2_Direction(self)
     

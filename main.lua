@@ -9,11 +9,13 @@ PLAYER_COUNT = 0
 
 function love.load()
     
-
-
     --load all files needed for the game
+    anim8 = require "libraries/anim8"
     camera = require "camera"
     Object = require "classic"
+
+    love.graphics.setDefaultFilter("nearest", "nearest")
+
     require "player"
     require "intros/intro"
     require "menus/start"
