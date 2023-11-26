@@ -7,12 +7,22 @@
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
         "FDR_Grasslands.tsx": {
             "scaleInDock": 0.5,
             "scaleInEditor": 1
         }
     },
-    "last.imagePath": "C:/Users/cousi/OneDrive/Desktop/GitHubRepos/Square/sprites/tiles",
+    "last.exportedFilePath": "C:/Users/cousi/OneDrive/Desktop/GitHubRepos/Square-Survivor/maps",
+    "last.imagePath": "C:/Users/cousi/OneDrive/Desktop/GitHubRepos/Square-Survivor/maps",
+    "map.height": 30,
+    "map.lastUsedExportFilter": "Lua files (*.lua)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 42,
+    "map.tileWidth": 42,
+    "map.width": 60,
     "openFiles": [
         "FDR_Grasslands.tsx"
     ],
@@ -20,5 +30,10 @@
     "recentFiles": [
         "FDR_Grasslands.tsx"
     ],
-    "tileset.lastUsedFormat": "tsx"
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 48,
+        "width": 48
+    }
 }
