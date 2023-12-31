@@ -1,0 +1,38 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "C:/Users/cousi/OneDrive/Desktop/GitHubRepos/BigModeJam/maps/TheConveyors.tsx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "C:/Users/cousi/OneDrive/Desktop/GitHubRepos/BigModeJam/maps/TheConveyors.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "C:/Users/cousi/OneDrive/Desktop/GitHubRepos/BigModeJam/maps/warehouse.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/cousi/OneDrive/Desktop/GitHubRepos/BigModeJam/assets/sprites",
+    "map.height": 60,
+    "map.tileHeight": 24,
+    "map.tileWidth": 24,
+    "map.width": 107,
+    "openFiles": [
+        "C:/Users/cousi/OneDrive/Desktop/GitHubRepos/BigModeJam/maps/warehouse.tsx",
+        "C:/Users/cousi/OneDrive/Desktop/GitHubRepos/BigModeJam/maps/TheConveyors.tsx"
+    ],
+    "project": "big-mode-jam.tiled-project",
+    "recentFiles": [
+        "C:/Users/cousi/OneDrive/Desktop/GitHubRepos/BigModeJam/maps/warehouse.tsx",
+        "C:/Users/cousi/OneDrive/Desktop/GitHubRepos/BigModeJam/maps/TheConveyors.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 24,
+        "width": 24
+    }
+}
